@@ -44,13 +44,13 @@ body{
 }
 
 .connexion{
-    background-color: #bbbbbb;
+    background-color:#7495b8;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 section {
     margin-top: 350px;
-    margin-left: 1450px;
+    margin-left: 1440px;
 
     padding: 60px;
     display: flex;
@@ -61,10 +61,10 @@ section {
 }
  .style_btn {
     padding: 10px 20px;
-    color:#fff;
-    background-color: rgb(106, 129, 143);
+    color:#ffffff;
+    background: radial-gradient(circle, rgb(121, 153, 172) 0%, rgb(102, 143, 167) 100%);
     letter-spacing: 1px;
-    border: 0;
+    border-radius: 50px;
     cursor: pointer;
     text-transform: uppercase;
 }
