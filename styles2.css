@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    
+    background-color: #809dbd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+}
+.menu { 
+    
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 30px 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1),;
+}
+
+.menu a {
+    
+    text-decoration: 0 ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #999;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+.menu a:hover{ 
+
+    color: #111;
+}
+
+.connexion{
+    background-color: #bbbbbb;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-top: 350px;
+    margin-left: 1450px;
+
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+
+    margin-bottom: 20px;
+}
+ .style_btn {
+    padding: 10px 20px;
+    color:#fff;
+    background-color: rgb(106, 129, 143);
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+
+.connexion form {
+    display: flex;
+    flex-direction: column;
+
+}
+.connexion form label{
+    margin-top: 10px;
+}
+.connexion form  input  {
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    margin: 20px 0;
+    width: 350px;
+    padding: 10px 0 ;
+}
+.color{
+    color: #999;
+}
+
+
+.logo{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+  }
+
+.logo-connexion{
+    position: absolute;
+    right: 5px;
+    top:5px;
+}
+
+.table{
+    position: absolute;
+    bottom: -15px;
+    right: 435px;
+}
+
+.en-bas{
+
+
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+   
+    bottom:0px;
+    height:7%;
+    width:100%;
+}
